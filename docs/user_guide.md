@@ -12,7 +12,7 @@ Here are the steps to follow to clone the model from GitHub:
 
 ![](screenshots/2_git_window.PNG)
 
-4. In this Git window, type `git clone https://github.com/wsp-sag/sr11_ome_v2.git` and press Enter. Git will clone a copy of the model to your local directory. After the successful completion of model copy, the Git window should look like something below - 
+4. In this Git window, type `git clone https://github.com/SANDAG/sr11_ome_v2.git` and press Enter. Git will clone a copy of the model to your local directory. After the successful completion of model copy, the Git window should look like something below - 
 
 ![](screenshots/3_git_complete.PNG)
 
