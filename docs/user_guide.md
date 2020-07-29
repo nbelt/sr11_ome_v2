@@ -101,7 +101,7 @@ The configuration file defines the current iteration weight (for averaging of we
 
 **Properties File**
 
-Once all the input data is copied to the appropriate locations, next step is to update the properties file to the local computer settings, file names etc. 
+Once all the input data is copied to the appropriate locations, next step is to update the properties file to the local computer settings, file names etc. **Make sure that folders are set to read only.**
 
 The highlighted properties from the snapshot below are the properties that need to be revised - 
 
@@ -145,7 +145,7 @@ To summarize, here are the steps to SET UP the model -
 
 Running the model requires TransCAD (version 6) and R program installed on the machine. 
 
-Open TransCAD software and look for GIS Developer's Kit option under Tools. 
+Open TransCAD software (**make sure to run as an adminsitrator**) and look for GIS Developer's Kit option under Tools. 
 
 ![](screenshots/10_gdk_option.PNG)
 
