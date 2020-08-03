@@ -34,7 +34,7 @@ To run any model scenario, below are the list of inputs files you need to copy/s
 * Properties File
 * Run Configuration File 
 
-**All of these scenario inputs for every model year are already located in the `scenario_inputs` folder of the model directory.** 
+**All of these scenario inputs for every model year are already located in the `scenario_inputs` folder of the model directory. In your model directory, make sure that the "read only" option is unchecked.** 
 
 You will need to have R installed on your computer (version 3.5.1 was the version used to develop the model).  [Here](<https://cran.r-project.org/bin/windows/base/old/3.5.1/>) is the link to download R (3.5.1), if required. Any other newer R version (say 3.4.1 or 3.5.2 etc.) will work too. If this is the first time installing R on a machine, it is best to get the latest version. 
 
@@ -94,6 +94,7 @@ The configuration file defines the current iteration weight (for averaging of we
 
 * `do_lane` is 1 for every 10th iteration - meaning the lane update module is set to run every 10th iteration. 
 * `do_toll` is 1 (build scenarios) when you want to run the toll update module and 0 otherwise (no-build scenarios).
+* `do_toll` should be set to 0 when running no-toll scenarios. Additionally, for no-toll scenarios, the port configurations file should have the default tolls all set to 0.
 
 
 
@@ -145,7 +146,7 @@ To summarize, here are the steps to SET UP the model -
 
 Running the model requires TransCAD (version 6) and R program installed on the machine. 
 
-Open TransCAD software and look for GIS Developer's Kit option under Tools. 
+**Open TransCAD software as an administrator** and look for GIS Developer's Kit option under Tools. 
 
 ![](screenshots/10_gdk_option.PNG)
 
